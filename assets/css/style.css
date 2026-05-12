@@ -1,3 +1,4 @@
+/* Reset de margens e fontes */
 * {
     margin: 0;
     padding: 0;
@@ -180,4 +181,45 @@ input {
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.emoji-festa {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.parabens-titulo {
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.subtitulo-final {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.pontuacao {
+    background-color: #f79433;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estrela {
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+#resultado-final {
+    font-size: 4rem;
+    font-weight: 900;
 }

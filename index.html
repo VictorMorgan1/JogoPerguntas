@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo - Descobrindo Brusque</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/script.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,6 @@
 
     <div id="tela-perguntas" class="conteiner" style="display: none;">
         <div class="badge-pergunta">Pergunta <span id="num-pergunta">1</span></div>
-        <button class="btn-ouvir">Ouvir novamente</button>
 
         <div class="card-pergunta">
             <p id="texto-pergunta">Carregando pergunta...</p>
@@ -52,7 +52,22 @@
         </div>
     </div>
 
-    <script src="assets/js/script.js"></script>
+    <div id="tela-final" class="conteiner" style="display: none;">
+        <div class="emoji-festa">🎉</div>
+        <h1 class="parabens-titulo">PARABÉNS!</h1>
+        <p class="subtitulo-final">Você é muito inteligente,<br>essa foi sua pontuação:</p>
+
+        <div class="pontuacao">
+            <span class="estrela">⭐</span>
+            <div id="resultado-final">0/15</div>
+        </div>
+
+        <div class="botao-conteiner">
+            <button onclick="location.reload()" class="botao-jogar">Jogar Novamente</button>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
