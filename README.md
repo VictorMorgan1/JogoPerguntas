@@ -6,4 +6,4 @@ Tela inicial para cadastro de nome, escola e idade. 15 perguntas de múltipla es
 
 Tecnologias Utilizadas: HTML5, CSS3 e JavaScript.
 
-Desenvolvido por: Victor Alexandre Morgan Pereira, Victor Hugo Schmidt Bagatim, Gustavo Benvenutti e Marcial Henrique.
+Desenvolvido por: Victor Alexandre Morgan Pereira, Victor Hugo Schmidt Bagatim, Gustavo Benvenutti, Marcial Henrique e Cleber Alves.
