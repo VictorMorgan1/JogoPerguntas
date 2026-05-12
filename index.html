@@ -10,42 +10,49 @@
 
 <body>
 
-    <div class="conteiner">
-        <img src="assets/images/logoprefeitura.png" alt="Logo Prefeitura Brusque" class="logo">
-
+    <div id="tela-inicial" class="conteiner">
+        <img src="assets/images/logoprefeitura.png" alt="Logo" class="logo">
         <div class="titulo-conteiner">
             <h1 class="titulo-principal">Descobrindo</h1>
             <h1 class="titulo-secundario">Brusque!</h1>
         </div>
-
-        <form>
-            <div class="campos">
-                <div class="input-campo">
-                    <label class="escrita-campo">Nome:</label>
-                    <input type="text">
-                </div>
+        <div class="campos">
+            <div class="input-campo"><label class="escrita-campo">Nome:</label><input type="text" id="jogador-nome">
             </div>
-
-            <div class="campos">
-                <div class="input-campo">
-                    <label class="escrita-campo">Escola:</label>
-                    <input type="text">
-                </div>
-            </div>
-
-            <div class="campos">
-                <div class="input-campo">
-                    <label class="escrita-campo">Idade:</label>
-                    <input type="text">
-                </div>
-            </div>
-
-            <div class="botao-conteiner">
-                <button type="submit" class="botao-jogar">Vamos Jogar!</button>
-            </div>
-        </form>
+        </div>
+        <div class="campos">
+            <div class="input-campo"><label class="escrita-campo">Escola:</label><input type="text"></div>
+        </div>
+        <div class="campos">
+            <div class="input-campo"><label class="escrita-campo">Idade:</label><input type="text"></div>
+        </div>
+        <div class="botao-conteiner">
+            <button onclick="iniciarJogo()" class="botao-jogar">Vamos Jogar!</button>
+        </div>
     </div>
 
+    <div id="tela-perguntas" class="conteiner" style="display: none;">
+        <div class="badge-pergunta">Pergunta <span id="num-pergunta">1</span></div>
+        <button class="btn-ouvir">Ouvir novamente</button>
+
+        <div class="card-pergunta">
+            <p id="texto-pergunta">Carregando pergunta...</p>
+        </div>
+
+        <div class="grid-respostas" id="opcoes-respostas">
+        </div>
+    </div>
+
+    <div id="overlay-feedback" class="overlay" style="display: none;">
+        <div id="feedback-conteudo" class="feedback-card">
+            <div id="feedback-icon"></div>
+            <h2 id="feedback-titulo"></h2>
+            <p id="feedback-subtitulo"></p>
+            <button onclick="proximaPergunta()" class="botao-proxima">Próxima Pergunta</button>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
