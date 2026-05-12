@@ -1,4 +1,4 @@
-Jogo Descobrindo Brusque Um jogo educativo e interativo de perguntas e respostas desenvolvido para ensinar crianças sobre a história, cultura e curiosidades da cidade de Brusque, Santa Catarina. Através de 15 perguntas baseadas em fatos históricos e atrações locais, as crianças podem testar seus conhecimentos e aprender mais sobre a cidade. 
+Jogo Descobrindo Brusque. Um jogo educativo e interativo de perguntas e respostas desenvolvido para ensinar crianças sobre a história, cultura e curiosidades da cidade de Brusque, Santa Catarina. Através de 15 perguntas baseadas em fatos históricos e atrações locais, as crianças podem testar seus conhecimentos e aprender mais sobre a cidade. 
 
 Funcionalidades: 
 
