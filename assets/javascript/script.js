@@ -17,7 +17,7 @@ const perguntas = [
 ];
 
 let perguntaAtual = 0;
-let acertos = 0; // Nova variável para contar pontos
+let acertos = 0; 
 
 window.iniciarJogo = function () {
     const telaInicial = document.getElementById('tela-inicial');
@@ -54,7 +54,7 @@ function verificarResposta(index) {
     overlay.style.display = 'flex';
 
     if (index === correta) {
-        acertos++; // Aumenta o ponto se acertar
+        acertos++; 
         conteudo.className = 'feedback-card acerto';
         document.getElementById('feedback-titulo').innerText = "ACERTOU!";
         document.getElementById('feedback-subtitulo').innerText = "MUITO BEM!";
@@ -79,6 +79,7 @@ window.proximaPergunta = function () {
 function exibirTelaFinal() {
     document.getElementById('tela-perguntas').style.display = 'none';
     document.getElementById('tela-final').style.display = 'block';
-    // Mostra a pontuação final (ex: 8/15)
+
+    
     document.getElementById('resultado-final').innerText = `${acertos}/15`;
 }
